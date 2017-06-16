@@ -1,14 +1,26 @@
 /*
  *Business Logic for both players
- *Created by Dennis Muturia, Elvis Mogaka, Caroline Theuri
+ *Created by Dennis Muturia, Elvis Mogaka
  *Version 1.0.0.0
 */
  //var total = 0;
+ var scores = [];
 function Players1(points){
     this.points = points;
 }
 Players1.prototype.computeScores = function(randomValue){
-     return this.points += randomValue;
+    while (randomValue > 0){
+       
+    if (randomValue === 1){
+        alert("You have burnt");
+        $('#Button').prop('disabled', true);
+        //scores.push(this.points);
+        break;
+        
+    }else{
+        return this.points += randomValue;
+        }
+    }
 }
 
 function Players2(random2){
