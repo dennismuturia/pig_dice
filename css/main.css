@@ -6,12 +6,15 @@ body{
     font-family: 'Indie Flower', cursive;
     text-align: center;
 }
-.p2{
-    float: right;
+h2{
+    text-align: center;
 }
-.p22{
-    text-align: right;
+.p2{
+   margin-left: 35%;
 }
 .center{
     text-align: center;
+}
+.marg{
+    margin-left: 35%;
 }
